@@ -1,24 +1,13 @@
 package org.example;
 
-class Employee extends Worker implements CloneableObject {
+public class Trainee extends Worker implements CloneableObject {
+
     private String name;
     private int hoursWorked;
     private String position;
-    private double salary;
 
-    public Employee(String name, int hoursWorked, String position, double salary) {
+    public Trainee(String name, int hoursWorked, String position) {
         super(name, hoursWorked, position);
-        this.salary = salary;
-    }
-
-    public Employee(String pos) {
-        super("Yaroslav", 1002000, pos);
-        this.salary = 0;
-    }
-
-    public Employee() {
-        super("Anton", 0, "rab");
-        this.salary = 0;
     }
 
     public void setName(String name) {
@@ -33,9 +22,6 @@ class Employee extends Worker implements CloneableObject {
         this.position = pos;
     }
 
-    public void setSalary(double sl) {
-        this.salary = sl;
-    }
 
     public String getName() {
         return name;
@@ -47,10 +33,6 @@ class Employee extends Worker implements CloneableObject {
 
     public String getPosition() {
         return position;
-    }
-
-    public double getSalary() {
-        return salary;
     }
 
     @Override
