@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<catalog>
+        <employees>
+            <employee name="John Doe" hoursWorked="160" position="Software Engineer" salary="60000" />
+            <employee name="Jane Smith" hoursWorked="175" position="Project Manager" salary="75000" />
+            <employee name="Peter Jones" hoursWorked="180" position="Software Engineer" salary="55000" />
+            <employee name="Mary Brown" hoursWorked="155" position="Designer" salary="45000" />
+            <employee name="David Wilson" hoursWorked="165" position="Product Manager" salary="50000" />
+            <employee name="Linda Davis" hoursWorked="170" position="Product Manager" salary="65000" />
+            <employee name="Richard Garcia" hoursWorked="185" position="Software Architect" salary="80000" />
+            <employee name="Susan Rodriguez" hoursWorked="150" position="Software Engineer" salary="40000" />
+            <employee name="Christopher Williams" hoursWorked="160" position="Business Analyst" salary="55000" />
+            <employee name="Patricia Anderson" hoursWorked="175" position="Content Writer" salary="45000" />
+            <employee name="Joseph Thomas" hoursWorked="180" position="Content Writer" salary="60000" />
+            <employee name="Elizabeth Martin" hoursWorked="155" position="Designer" salary="40000" />
+            <employee name="Robert Lee" hoursWorked="165" position="Product Manager" salary="70000" />
+            <employee name="Barbara Jackson" hoursWorked="170" position="Designer" salary="50000" />
+            <employee name="Michael Garcia" hoursWorked="185" position="Designer" salary="85000" />
+        </employees>
+</catalog>
